@@ -1,0 +1,4 @@
+# Sahi format (Bina ./ ke)
+venv/
+__pycache__/
+*.pyc
