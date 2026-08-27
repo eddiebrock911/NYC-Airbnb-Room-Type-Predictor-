@@ -20,7 +20,7 @@ COLUMNS = ["latitude", "longitude", "price", "minimum_nights",
     "calculated_host_listings_count", "availability_365",
     "neighbourhood_group", "neighbourhood",]
 
-model = joblib.load("Model_Pipeline.pkl")  # Load the pre-trained model pipeline
+model = joblib.load("model_pipeline.pkl")  # Load the pre-trained model pipeline
 
 #Pydantic Model = the input validation
 class Features(BaseModel):
